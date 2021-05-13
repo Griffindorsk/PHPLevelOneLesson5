@@ -1,0 +1,80 @@
+body {
+	background: url('../images/body.jpg');
+	/* color: #444; */
+	font: normal 1.2em Verdana,Arial,sans-serif;
+	height: 100%;
+	padding-bottom: 1px;
+	padding-top: 64px;
+}
+body p {
+	margin: 0;
+	padding: 0.4rem;
+	color: white;
+}
+.gallery img{
+	margin:5px;
+	border:3px solid #fff;
+}
+a.photo:hover img{
+	border:3px solid #034F80;
+}
+#main {
+	width:858px;
+	margin:0 auto;
+	background: #4A4A4A;
+	color: #CCC;
+}
+.post_title h2 {
+	font: normal 2em Arial,sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* стиль загрузочной формы(начало) */
+ .file_drop {
+background:#fff;
+margin:auto;
+padding:200px 200px;
+border:2px solid #333;
+}
+
+.file_drop_dragover {
+border:2px dashed #333;
+}
+
+.file_drop_input {
+border:0;
+}
+
+.message_div {
+background:#fefefe;
+border:2px solid #333;
+color:#333;
+width:350px;
+height:150px;
+position:fixed;
+bottom:25px;
+right:25px;
+font-size:15px;
+padding:5px;
+z-index:100;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.message_div_hidden {
+right:-2000px;
+} 
+/* стиль загрузочной формы(конец) */
+
+.main_menu {
+	display: flex;
+}
+.main_menu a {
+	display: block;
+	margin-right: 2rem;
+	margin-bottom: 0.5rem;
+	padding: 0.4rem;
+	background-color: #c2c2c2c9;
+	border-radius: 0.1rem;
+	text-decoration: none;
+	color: rgb(141, 19, 19);
+}
